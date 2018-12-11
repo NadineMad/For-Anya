@@ -1,0 +1,29 @@
+@media (min-width: 320px) and (max-width: 490px) {
+    .info__nav-burger {
+        display: flex;
+        background-color: pink;
+    }
+
+    .info__nav {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .info {
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: px) {
+    .info__content-text {
+        font-size: 10px;
+    }
+}
+@media (min-width: 300px) and (max-width: 470px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
